@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: Arial, sans-serif;
+ 
+}
+.parent{
+
+  width: 100%;
+  background-color: #111;
+  padding: 20px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.card{
+  height: 330px;
+  width: 280px;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.top img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 50%;
+  border: 1px solid #dadada;
+  padding: 3px;
+}
+.top button{
+  display: flex;
+  align-items: center;
+  border: 1px solid #dadada;
+  padding: 3px 6px;
+  font-size: 10px;
+  border-radius: 5px;
+  gap: 3px;
+  border-color: transparent;
+  color: #b1b1b1;
+
+
+}
+
+
+.center h3{
+  font-size: 17px;
+  font-weight: 500;
+ 
+
+  
+}
+.center h3 span{
+  font-size: 9px;
+  font-weight: 400;
+   color: #8b8b8b;
+
+}
+.center h2{
+  font-size: 20px;
+
+}
+.center .tag{
+  display: flex;
+  gap: 5px;
+  margin-top:10px; ;
+
+}
+.center .tag h4{
+  font-size: 12px;
+  background-color: #dadada;
+  color: #111;
+  font-weight: 600;
+  padding: 6px 8px;
+  border-radius: 5px;
+}
+.bottom {
+  border-top: 1px solid #b1b1b1;
+  padding-top: 15px;
+}
+
+.bottom > div {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 2px;
+}
+
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1.5px solid #d7d7d7;
+  padding-top: 15px;
+}
+
+.bottom .price {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.bottom h3 {
+  font-size: 17px;
+}
+
+.bottom p {
+  font-size: 12px;
+  color: #8b8b8b;
+}
+
+.bottom button {
+  background-color: #000;
+  color: #fff;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.bottom h3{
+  font-size: 17px;
+
+}
+.bottom p{
+  font-size:12px ;
+  color: #8b8b8b;
+}
